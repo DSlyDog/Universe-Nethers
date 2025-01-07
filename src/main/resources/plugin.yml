@@ -1,4 +1,10 @@
-name: untitled
-version: '1.0-SNAPSHOT'
+name: Universe-Nethers
+version: 2.7
 main: net.whispwriting.universe_nethers.UniverseNethers
-api-version: '1.21'
+api-version: "1.20"
+prefix: U-Nethers
+authors: [WhispTheFox]
+description: A plugin to allow nether portals to direct to custom worlds made with the Universes plugin
+website: https://whispwriting.net
+depend:
+  - Universes
