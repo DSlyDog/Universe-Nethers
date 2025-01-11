@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package net.whispwriting.universe_nethers.events;
 
 import net.whispwriting.universe_nethers.UniverseNethers;

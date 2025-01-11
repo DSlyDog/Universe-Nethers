@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 package net.whispwriting.universe_nethers;
 
 import java.util.HashMap;
@@ -21,11 +16,13 @@ public final class UniverseNethers extends JavaPlugin {
     public UniverseNethers() {
     }
 
+    @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new NetherPortalHandler(), this.universes);
         Bukkit.getPluginManager().registerEvents(new EntityNetherPortalHandler(), this.universes);
     }
 
+    @Override
     public void onDisable() {
     }
 }

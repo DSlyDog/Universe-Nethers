@@ -1,5 +1,5 @@
 name: Universe-Nethers
-version: 2.7
+version: ${project.version}
 main: net.whispwriting.universe_nethers.UniverseNethers
 api-version: "1.20"
 prefix: U-Nethers
